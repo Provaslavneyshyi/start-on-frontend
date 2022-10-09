@@ -32,6 +32,7 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .blocks__title{
+    white-space: nowrap;
     text-transform: uppercase;
     color: #394b50;
     font-style: normal;

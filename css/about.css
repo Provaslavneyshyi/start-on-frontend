@@ -1,0 +1,23 @@
+.about{
+    width: 100%;
+    min-width: 1020px;
+    height: 623px;
+    background: #ffc155;
+    position: relative;
+    top: 370px;
+    display: flex;
+}
+
+.about__fone{
+    width: 850px;
+    position: absolute;
+    left: -80px;
+
+}
+
+.about__block{
+    position: absolute;
+    width: 510px;
+    height: 290px;
+
+}
