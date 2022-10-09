@@ -1,0 +1,53 @@
+@import url(/zeroing/zeroing.css);
+@import url(/boost/css/header.css);
+@import url(/boost/css/intro.css);
+@import url(/boost/css/service.css);
+@import url(/boost/css/about.css);
+@import url(/boost/css/price.css);
+@import url(/boost/css/works.css);
+@import url(/boost/css/clients.css);
+@import url(/boost/css/footer.css);
+
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+
+.title{
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.subtitle{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title-white{
+    color: #fff;
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
+.subtitle-white{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title-black{
+    color: #394b50;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.subtitle-black{
+    color: #394b50;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
