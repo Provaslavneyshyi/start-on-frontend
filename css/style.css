@@ -31,12 +31,14 @@
     font-size: 35px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
+    text-align: center;
 }
 
 .subtitle-white{
     color: #fff;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
+    text-align: center;
 }
 
 .title-black{
@@ -44,10 +46,12 @@
     font-size: 30px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
+    text-align: center;
 }
 
 .subtitle-black{
     color: #394b50;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
+    text-align: center;
 }
