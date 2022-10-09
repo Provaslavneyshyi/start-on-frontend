@@ -34,8 +34,11 @@ font-family: 'Open Sans', sans-serif;
 
 .search{
     display: flex;
-    gap: 10px;
     margin-top: 30px;
+    justify-content: space-evenly;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
 }
 
 .search__item{
@@ -43,8 +46,28 @@ font-family: 'Open Sans', sans-serif;
     width: 280px;
     height: 47px;
     border-radius: 2px;
-
+    padding-left: 30px;
 }
+
+.search__item_name{
+    background-image: url(/boost/img/human.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+
+.search__item_email{
+    background-image: url(/boost/img/mail.png);
+    background-repeat: no-repeat;
+    background-position: 8px;
+}
+
+.search__item_phone{
+    background-image: url(/boost/img/phone.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
 
 .search__button{
     width: 210px;
@@ -64,13 +87,20 @@ font-family: 'Open Sans', sans-serif;
 
 .intro-image__item{
     position: relative;
-    bottom: 0;
+    top: 70px;
+
 }
 
 .intro-image__item_free{
     position: absolute;
+    left: 103px;
+    top: 20px;
+    z-index: 2;
 }
 
+.search__item_name{
+    background-image: url(/portfolio/img/1_project/human.png) no-repeat;
 
+}
 
 
