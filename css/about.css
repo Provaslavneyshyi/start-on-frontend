@@ -16,8 +16,35 @@
 }
 
 .about__block{
-    position: absolute;
+    display: flex;
+    position: relative;
     width: 510px;
     height: 290px;
+    flex-direction: column;
+    align-items: flex-start;
+    left: 700px;
+    top: 160px;
+}
 
+.about__title{
+    padding: 0 0 25px 0;
+
+}
+
+.about__subtitle{
+    text-align: start;
+    color: #fff;
+    font-size: 13.5px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+}
+
+.about__button{
+    color: #fff;
+    width: 150px;
+    height: 45px;
+    background: none;
+    border: 1px solid #e7ad48;
+    margin: 35px 0 0 0;
+    font-family: 'Lato', sans-serif;
 }
