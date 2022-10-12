@@ -1,0 +1,162 @@
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+.footer{
+    position: relative;
+    min-width: 1170px;
+    height: 1170px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    top: 480px;
+}
+
+.footer__block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__title{
+
+}
+
+.footer__search{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: baseline;
+}
+
+.footer__input{
+    margin: 7.5px;
+    padding-left: 40px ;
+}
+.footer__input_small{
+    width: 310px;
+    height: 50px;
+    background: url(/boost/img/human.png) no-repeat;
+    background-position: 15px;
+    border: 1px solid #cbcbcb;
+}
+
+.footer__input_big{
+    width: 390px;
+    height: 50px;
+    background: url(/boost/img/mail.png) no-repeat;
+    background-position: 15px;
+    border: 1px solid #cbcbcb;
+}
+
+.footer__button{
+    display: block;
+    width: 220px;
+    height: 51px;
+    background: #ffbb42;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    margin: 7.5px;
+}
+
+.footer__img{
+    display: block;
+    position: relative;
+    padding-top: 55px;
+}
+
+.footer__img_center{
+    display: flex;
+    position: absolute;
+    top: 14.5%;
+    left: 35.5%;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.footer__img_center-img{
+
+}
+
+.footer__list{
+    text-align: center;
+    position: absolute;
+    line-height: 2;
+
+
+}
+
+.footer__list-item{
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+    color: #aeb7ba;
+}
+
+.footer__list-item_title{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+}
+
+
+.footer__list-item_yellow{
+    color: #ffbb42;
+}
+
+
+.footer__logo{
+    position: relative;
+    bottom: 210px;
+    right: 5px;
+}
+
+.footer__contact{
+    display: flex;
+    padding: 30px 0 20px 0;
+    font-size: 22.52px;
+    font-family: 'Lato', sans-serif;
+}
+
+.footer__contact img{
+   width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+.footer__media{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.footer__massanger{
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
