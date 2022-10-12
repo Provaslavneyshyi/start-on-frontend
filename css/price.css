@@ -11,7 +11,7 @@
 
 .price-list{
     display: flex;
-    width: 1170px;
+    max-width: 1170px;
     height: auto;
     justify-content: space-between;
     background: #e7edf3;
@@ -78,11 +78,13 @@
 }
 
 .price-list__item:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     background: #709dca;
-    color: #fff;
+    color: #fff !important;
     z-index: 3;
 }
+
+
 
 .price__title{
     position: relative;
