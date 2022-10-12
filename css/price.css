@@ -1,0 +1,95 @@
+.price{
+    width: 100%;
+    min-width: 1020px;
+    height: 900px;
+    position: relative;
+    background: #e7edf3;
+    font-family: 'Lato', sans-serif;
+    top: 370px;
+}
+
+
+.price-list{
+    display: flex;
+    width: 1170px;
+    height: auto;
+    justify-content: space-between;
+    background: #e7edf3;
+}
+
+.price-list__item{
+    display: block;
+    width: 390px;
+    height: 440px;
+    margin-top: 80px;
+    border: 1px solid #ccd5df;
+    background: #FFF;
+    padding: 30px;
+    transition: .6s;
+}
+
+.price-list__list{
+    text-align: center;
+    line-height: 1.5;
+    color: #b5bbc1;
+    font-size: 15px;
+}
+
+.price-list__planer{
+    padding: 25px 0 0 0;
+    font-size: 25px;
+    color: #818b95;
+    line-height: 1;
+}
+
+.price-list__price{
+    font-size: 60px;
+    color: #ffbb42;
+}
+
+.price-list__month{
+    position: relative;
+    bottom: 10px;
+    padding-bottom: 30px;
+
+}
+
+.price__button{
+    margin-top: 10px;
+    color: #fff;
+    width: 130px;
+    height: 42px;
+    background-color: #ffbb42;
+}
+
+.price-list__accaunt{
+    border-top: 1px solid #8eb8e2;
+    border-bottom: 1px solid #8eb8e2;
+    padding: 8px;
+}
+
+.price-list__bonus{
+    padding: 8px;
+    border-bottom: 1px solid #8eb8e2;
+}
+
+.price-list__custom{
+    padding: 8px;
+}
+
+.price-list__item:hover{
+    transform: scale(1.2);
+    background: #709dca;
+    color: #fff;
+    z-index: 3;
+}
+
+.price__title{
+    position: relative;
+    padding-top: 130px;
+}
+
+
+
+
+
