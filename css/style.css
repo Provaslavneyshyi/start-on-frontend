@@ -11,13 +11,13 @@
 
 body{
     width: 100%;
+    min-width: 1170px;
     height: auto;
 }
 
 .container{
     width: 100%;
     max-width: 1170px;
-    min-width: 320px;
     margin: 0 auto;
     height: auto;
 }
